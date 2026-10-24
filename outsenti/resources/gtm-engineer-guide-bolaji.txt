@@ -1,0 +1,1297 @@
+﻿
+
+GTM ENGINEER GUIDE
+This is a free, open guide by Bolaji Anifowose — PMM and GTM Engineer. Connect on LinkedIn or X.
+If this helps you, share it. No email required, no paywall.
+</aside>
+What this guide is
+This is the guide I wish existed when I was trying to figure out GTM Engineering.
+Not a listicle. Not a "top 10 tools" post. A real, honest roadmap for people who want to understand what GTM Engineering actually is, whether it's for them, and how to build the skills to do it well.
+I've spent years in the trenches leading marketing and growth across multiple B2B and SaaS startups, building GTM strategy and actually executing it. In March 2025, I made a full transition into GTM Engineering. The push was a foresight: watching the AI landscape evolve and seeing how AI-powered tools could complement and accelerate everything I was already doing in GTM. Same job to be done, dramatically more leverage.
+So this guide isn't theory. It comes from three places.
+I was part of the pioneer cohort of GTM Engineer School, taught by practitioners from Clay, Lemlist, Octave, AirOps, n8n, and Cargo, alongside some of the world's top GTM Engineers including Eric Nowoslawski and Patrick Spychalski. The day-to-day work of building real systems for real companies, where the demands of the role become clear fast because the pipeline either runs or it doesn't. And the patterns I've watched separate people who actually break into GTM Engineering from those who stall out.
+A lot of "GTM Engineering" content assumes you already know what GTM means, already know what Clay does, and already have a job title that gives you permission to care about this. This guide doesn't assume any of that.
+<aside>▶️
+If you haven't watched my intro to GTM Engineering live session yet, you absolutely should. It covers the fundamentals in a way that will make this guide land faster. Watch the session →
+</aside>
+
+Who this is for
+This guide is built for the person who:
+Works in marketing, sales, growth, or operations and keeps hearing about GTM Engineering but doesn't know where they fit
+Is a PMM or SDR wondering whether automation is going to replace them or empower them
+Is a founder or early-stage operator who has to be the marketer, the salesperson, and the revenue system all at once
+Is a RevOps or Marketing Ops person trying to understand how this differs from what they already do
+Is just starting out in tech and wants to know what career paths actually have momentum right now
+If you're a software engineer looking to get into this field, this guide will still be useful, but it's not written for you first.
+
+How to use this guide
+Find your archetype first. In Part 1, there's a section on the three entry archetypes for GTM Engineering. Read it. It'll tell you which parts of this guide are most relevant to where you're starting from.
+Use the stage milestone test. Each stage in Part 4 has a milestone. Read the milestone before you read the stage. If you can already do what the milestone describes, skip to the next stage.
+Don't try to read it all at once. This guide is meant to be a reference. Bookmark it, come back to it as you build.
+
+The guide at a glance
+Section
+What you'll learn
+Best for
+[Part 1: Understanding the Landscape](https://app.notion.com/p/Part-1-Understanding-the-Landscape-a59006a407cb8322923a810057c03dbe?pvs=21)
+What GTM Engineering is, the four pillars, where it applies, how it compares to adjacent roles
+Everyone, start here
+[Part 2: The Skill Stack](https://app.notion.com/p/Part-2-The-Skill-Stack-e61006a407cb83c48fe7812b9b5f1ccb?pvs=21)
+The five core skills, hard skills by level, soft skills that separate good from great
+Anyone mapping their gaps
+[Part 3: The Tool Stack](https://app.notion.com/p/Part-3-The-Tool-Stack-3b0006a407cb82fa8f7e01732d45786d?pvs=21)
+Every tool category explained, when to use what, starter kits by budget
+Anyone setting up their stack
+Part 4: The 6-Month GTM Engineer Roadmap
+Stage 0 through Stage 4, milestones, projects to build, resources per stage
+Anyone ready to start learning
+[Part 5: Getting Your First Opportunity](https://app.notion.com/p/Part-5-Getting-Your-First-Opportunity-083006a407cb83acbd128106d91f2875?pvs=21)
+Portfolio building, three paths in, consulting rates
+Anyone looking for a job or client
+[Part 6: Resources and Community](https://app.notion.com/p/Part-6-Resources-and-Community-611006a407cb822a86e101b9a63b7669?pvs=21)
+Curated courses, newsletters, communities, people to follow
+Anyone building a learning system
+[Appendix](https://app.notion.com/p/Appendix-d58006a407cb82a0a887810bbdf93ce4?pvs=21)
+Glossary, beginner stack, 30-day checklist
+Quick reference
+
+"GTM Engineering is a term first coined by Clay in 2023. It's all about building revenue-generating systems by blending AI, automation, and creative problem-solving."
+
+The sections
+[Part 1: Understanding the Landscape](https://app.notion.com/p/Part-1-Understanding-the-Landscape-a59006a407cb8322923a810057c03dbe?pvs=21)
+[Part 2: The Skill Stack](https://app.notion.com/p/Part-2-The-Skill-Stack-e61006a407cb83c48fe7812b9b5f1ccb?pvs=21)
+[Part 3: The Tool Stack](https://app.notion.com/p/Part-3-The-Tool-Stack-3b0006a407cb82fa8f7e01732d45786d?pvs=21)
+Part 4: The 6-Month GTM Engineer Roadmap
+[Part 5: Getting Your First Opportunity](https://app.notion.com/p/Part-5-Getting-Your-First-Opportunity-083006a407cb83acbd128106d91f2875?pvs=21)
+[Part 6: Resources and Community](https://app.notion.com/p/Part-6-Resources-and-Community-611006a407cb822a86e101b9a63b7669?pvs=21)
+[Appendix](https://app.notion.com/p/Appendix-d58006a407cb82a0a887810bbdf93ce4?pvs=21)
+
+
+1.1 What is GTM Engineering, actually?
+GTM Engineering is a term first coined by Clay in 2023. The full definition is this: building revenue-generating systems by blending AI, automation, and creative problem-solving.
+But definitions don't make things real. Here's what actually changed.
+The before and after
+
+Before GTM Engineering existed as a discipline, a typical outbound sales operation looked like this:
+Someone manually pulled a list from Apollo or ZoomInfo
+An SDR spent hours researching each prospect, writing custom intros, looking up company news
+A team of 5 people could send maybe 200 personalized emails a week
+Follow-ups were tracked in a spreadsheet that nobody kept updated
+The question "has anyone found the email for this lead?" got asked in Slack every day
+Now, a single GTM Engineer with the right stack can:
+Use Clay to find and enrich 50,000 leads automatically, pulling from 10+ data sources in a waterfall
+Use Claude or OpenAI to write a unique, research-based opening line for every single contact
+Use Smartlead or Instantly to send, follow up, and classify replies, all automatically
+Use Bombora to know which accounts are showing buying intent before anyone reaches out
+Log everything to the CRM without a human touching a record
+One person. Doing what used to require a team of ten.
+That's not hype. That's the actual shift.
+The origin story
+The term GTM Engineering was coined by Clay, and specifically traces back to Yash, one of Clay's early team members. What Yash was doing at the time didn't have a name yet. He was building revenue-generating systems that blended data, automation, and AI in a way that no single existing role described. That work evolved into what the industry now calls GTM Engineering. Yash is, by most accounts, the first GTM Engineer, because he coined the word.
+I heard this story firsthand at the GTM Engineer School.
+You can also watch this video for more context.
+Why "engineering"?
+The word engineering is intentional. GTM Engineers don't just use tools, they build systems. The distinction matters:
+A marketer runs a campaign. A GTM Engineer builds the infrastructure that runs campaigns automatically.
+A salesperson researches prospects. A GTM Engineer builds a pipeline that researches and routes prospects without manual input.
+An ops person maintains the CRM. A GTM Engineer builds the enrichment logic that keeps the CRM clean and current.
+Engineers build things that keep working after they stop touching them. That's the standard.
+
+1.2 The Four Pillars
+Every effective GTM engineering system rests on four pillars. These aren't tool categories. They're principles. You can build a system that uses all the right tools and still fail at any one of these.
+Pillar 1: Clean Data Foundation
+One source of truth, plus enrichment.
+Garbage in, garbage out. This is the oldest cliche in data and it's still true. A GTM system built on a messy, incomplete, or outdated contact list will produce noise, not pipeline.
+What clean data actually means in practice:
+A single CRM (HubSpot, Attio, or Salesforce) as the authoritative record for all contacts and accounts
+Every record has the fields that matter: company name, domain, industry, headcount, job title, LinkedIn URL, verified email, phone (where relevant)
+Enrichment is not a one-time import. It's a pipeline that keeps data current as companies grow, people change roles, and intent signals shift
+Deduplication rules are in place so the same contact doesn't appear 4 times under different email addresses
+What waterfall enrichment is: Rather than relying on one data provider (which will have gaps), you set up a sequence. Try Provider A first. If they don't have the email, try Provider B. If that fails, try Provider C. This is called a waterfall, and it's how you get 80-90% email coverage on a list instead of 40-50%.
+Common enrichment providers used in waterfalls: Prospeo, Leadmagic, Apollo, Hunter, Wiza etc.
+Pillar 2: Always-On Signals and Triggers
+Funding, job changes, intent spikes, and more.
+The best outreach arrives at the right moment. Timing is a signal. GTM Engineers build systems that listen for signals continuously and trigger actions when conditions are met.
+Signal types:
+Funding signals: Company raises a Series A. They're about to hire, spend, and build. That's a buying window.
+Job change signals: A new VP of Sales joins a target account. They're building a new stack. That's a buying window.
+Intent signals: A company starts researching your category on G2, TrustRadius, or through Bombora intent data. They're in-market. That's a buying window.
+Technographic signals: A company installs a specific tool that pairs well with yours. That's a fit signal.
+Website visit signals: A target account visits your pricing page. That's a hot signal. (Tools like RB2B identify anonymous visitors.)
+Content signals: A prospect likes or comments on a LinkedIn post about your category. They're thinking about this problem.
+Signal stacking is the practice of combining multiple signals to prioritize. One signal is interesting. Three overlapping signals mean reach out today.
+Pillar 3: Composable Modular Workflows
+No-code, low-code, and APIs working together.
+A composable workflow is one where each piece can be swapped out independently. If Clay changes its pricing, you can switch the enrichment layer without rebuilding the whole system. If a sequencing tool goes down, your list building and scoring still works.
+What modular means in practice:
+Each workflow has a clear input, a clear output, and a clear job it does
+Workflows connect via APIs and webhooks, not manual exports and imports
+No single tool is a dependency that breaks everything if it fails
+You can add a new data source or a new AI model without redesigning the whole pipeline
+The mental model: Think of it like plumbing, not a monolith. Water flows from source to destination through pipes you can reroute. A monolith is a single piece of software that does everything but breaks completely when one part fails.
+Pillar 4: Tight Feedback Loops
+Measure, iterate, redeploy fast.
+The best GTM Engineers don't just build and ship. They instrument every system so they know what's working.
+What tight feedback looks like:
+Sequence performance tracked by step: open rates, reply rates, positive reply rates, meeting booked rates
+ICP scoring models validated against actual conversion data (do the "high fit" leads actually close?)
+Reply classification automated so every response is categorized (interested, not now, not the right person, unsubscribe) and routed correctly
+A/B testing baked into outreach sequences by default, not as an afterthought
+A weekly review ritual: what fired, what converted, what broke
+The compounding power of GTM Engineering comes from this loop. Each iteration makes the system smarter. After 6 months of tight feedback, your system knows things about your ICP that no new hire could figure out in their first quarter.
+
+1.3 Where GTM Engineering Applies Across the Revenue Funnel
+One of the biggest misconceptions is that GTM Engineering is only about outbound prospecting. It applies to the entire revenue funnel, from brand awareness through customer retention.
+SEO, Content, and Social
+AI content generation at scale: Using AirOps or Claude workflows to generate blog posts, landing page variants, or LinkedIn drafts from a structured brief
+Programmatic SEO: Building pages automatically from data templates (e.g., "[Tool A] vs [Tool B]" comparison pages generated from a database of 500 competitor pairs)
+Short-form video workflows: Automatically clipping long-form content into LinkedIn/TikTok posts using tools like Opus Clip or Descript
+Distribution workflows: New blog post published triggers automatic LinkedIn post draft, newsletter segment, and Slack notification to the sales team
+Inbound Lead Flow
+Lead enrichment pipelines: New form submission in HubSpot triggers instant enrichment in Clay, appending company size, industry, tech stack, LinkedIn URL, and ICP score before the lead reaches a rep
+Scoring and routing: AI-scored leads automatically routed to the right rep or sequence based on fit tier (high/medium/low), deal size, or industry
+Lead deduplication and merge: Automated deduplication rules prevent the same person from appearing as multiple contacts
+Outbound Prospecting
+Dynamic list building: Automated searches running daily in Sales Navigator, Crunchbase, or Apollo to surface new qualifying accounts as they enter your ICP
+Outbound sequences: Multi-touch, multi-channel sequences (email plus LinkedIn) running automatically with personalized messaging
+Warm account prioritization: Accounts showing intent signals surfaced to the top of the outreach queue automatically
+ABM Execution
+Signal stacking for prioritization: Combining funding, job change, intent, and technographic signals to build a ranked list of target accounts
+Programmatic personalization: Every touchpoint references a specific, research-derived signal about that account (not just "I saw you're in SaaS")
+Target account orchestration: Coordinated, multi-channel campaigns across email, LinkedIn, and ads running simultaneously against the same account list
+Sales Execution
+Meeting prep automation: A workflow that runs before every discovery call, pulling the prospect's LinkedIn activity, recent company news, funding history, tech stack, and competitor usage into a one-page brief
+CRM admin automation: Call notes transcribed and summarized by AI, deal stage updated based on email content, next steps logged automatically
+In-meeting copilots: Tools like Otter.ai or Fireflies combined with AI summaries to capture, classify, and act on meeting content
+Account Expansion and Retention
+CS playbook automation: Onboarding sequences triggered by CRM stage changes, check-in emails fired at 30/60/90 day marks, health score drops triggering save campaigns
+Early warning churn predictors: Usage data signals (logins dropping, feature adoption stalling) combined with support ticket volume to flag at-risk accounts before they churn
+Expansion triggers: Automated alerts when a customer hires for a role that suggests they're ready to expand their contract
+
+1.4 GTM Engineer vs. Every Adjacent Role
+People get confused about how GTM Engineering relates to roles that already exist. Here's the honest comparison.
+Dimension
+GTM Engineer
+Marketing Ops
+RevOps / Sales Ops
+SDR / BDR
+Growth Marketer
+Primary output
+New revenue systems and pipelines
+Campaign execution efficiency
+Process optimization and reporting
+Booked meetings and qualified pipeline
+Acquisition experiments and channel wins
+Builds vs. maintains
+Primarily builds new systems
+Primarily maintains and operates existing
+Primarily optimizes and governs
+Operates within existing systems
+Primarily experiments and iterates
+Technical depth
+High: APIs, automation, AI agents
+Medium: MAPs, CRM config, integrations
+Medium-high: CRM, data, BI tools
+Low to medium: sequencing tools, CRM basics
+Variable: depends on channel mix
+Core question
+"How do we build a machine that finds and engages the right buyers at scale?"
+"How do we run this campaign efficiently?"
+"How do we make our existing process better?"
+"Who should I call or email today?"
+"What's the fastest path to the next 1,000 users?"
+The nuances worth understanding
+GTM Engineer vs. RevOps: RevOps governs process and optimizes what exists. GTM Engineering builds what doesn't exist yet. RevOps is more backward-looking (reporting, process compliance, CRM hygiene). GTM Engineering is forward-looking (what new motion can we build). They're complementary. At many companies they collaborate closely, or the same person does both.
+GTM Engineer vs. Marketing Ops: Marketing Ops manages the existing marketing technology stack and supports campaign execution. GTM Engineering builds net-new systems, often crossing into sales territory. A Marketing Ops person maintains Marketo. A GTM Engineer builds the enrichment pipeline that feeds Marketo automatically.
+GTM Engineer vs. SDR: This is the most misunderstood comparison. GTM Engineers don't replace SDRs. They make SDRs dramatically more effective, or they make a smaller SDR team generate the same pipeline as a larger one. The SDR handles the human judgment and relationship layer. The GTM Engineer automates all the labor-intensive groundwork: research, list building, initial outreach, follow-up scheduling, reply classification.
+GTM Engineer vs. Growth Marketer: Growth marketing is a philosophy (experiment fast, find what scales) applied broadly. GTM Engineering is a functional practice applied specifically to the go-to-market engine. The term "growth hacker" has also lost credibility at the senior level because it implies tactics over systems. GTM Engineering implies systematic, durable infrastructure.
+
+1.5 The Three Archetypes Entering GTME
+There is no single background that produces a GTM Engineer. People arrive from three different directions, and each archetype brings different strengths and faces different gaps.
+Archetype 1: The Technical
+Comes from software engineering, data engineering, or developer marketing.
+What they're good at: APIs, custom scripts, infrastructure, data pipelines, building things that scale technically
+What they need to develop: GTM strategy intuition, understanding what "good pipeline" means, messaging and positioning, buyer empathy
+Common mistake: Building technically elegant systems that no one on the sales team understands or trusts
+Archetype 2: The Ops Person
+Comes from RevOps, Marketing Ops, CRM administration, or sales operations.
+What they're good at: Process design, CRM architecture, data modeling, understanding how tools connect in an enterprise stack
+What they need to develop: The mindset of building new things (not just maintaining existing ones), comfort with shipping imperfect systems and iterating
+Common mistake: Over-engineering before shipping. Waiting until the system is perfect instead of running it on 50 contacts to see if it works.
+Archetype 3: The Marketer or Seller
+Comes from PMM, growth marketing, SDR, content, or demand gen roles.
+What they're good at: Revenue intuition, messaging, understanding what buyers actually respond to, knowing the funnel from the inside
+What they need to develop: Technical skills (APIs, automation tools, light scripting), comfort with ambiguity and building
+Common mistake: Underestimating how quickly the technical side can be learned with the right resources and practice
+Most people reading this guide are Archetype 3. The rest of this guide is written with you in mind first. The technical skills are learnable. The revenue intuition you already have is harder to teach.
+
+
+1.6 A Note on African Markets
+Most GTM Engineering content is written from a US or European perspective. If you're building in or for African markets, a few things are worth knowing from direct experience:
+Apollo has strong African continent coverage. When building waterfall enrichment for African B2B companies, Apollo tends to outperform other providers for contact data on the continent. Start your waterfall with Apollo if your ICP is African-market companies.
+Localization is a signal, not just a tactic. One of the best personalization angles for African markets is cultural context.
+RB2B's website de-anonymization is currently US-focused. If your buyers are visiting from Nigeria, Ghana, Kenya, or elsewhere on the continent, most de-anonymization tools won't identify them yet. Inbound intent signals for African markets require different approaches: form fills, content engagement, community signals.
+Cloud hosting options exist locally. Yamify is an African cloud platform, an alternative to Google Cloud or DigitalOcean, for hosting self-deployed tools like n8n. Worth knowing if you want to keep infrastructure closer to your users.
+
+Continue to [Part 2: The Skill Stack](https://app.notion.com/p/Part-2-The-Skill-Stack-e61006a407cb83c48fe7812b9b5f1ccb?pvs=21)
+
+
+2.1 The Five Core Skills
+These are not the tools. They're the underlying capabilities that make someone effective as a GTM Engineer regardless of which tools they use. Tools change. These skills compound.
+Skill 1: Systems Thinking
+This is the most important skill on the list. Systems thinking means seeing the entire revenue funnel as a connected machine, not a set of individual tools or tactics.
+What it looks like in practice:
+Before building anything, you map the full flow: where does the data come in, what happens to it, where does it go, who touches it next
+You understand that every workflow has upstream inputs and downstream outputs. If you change the enrichment step, it affects the scoring step, which affects the routing step, which affects what the SDR sees in their queue
+You ask "what breaks if this step fails?" before you ship
+You think in feedback loops: what signal will tell me this is working?
+How to develop it:
+Practice drawing systems before you build them. Take any process you currently do manually and map it as a flowchart: inputs, decisions, outputs, failure states. Do this for 10 processes before you automate anything. You can use a tool like Excalidraw for this.
+Skill 2: Learning New Tools Fast
+The GTM Engineering stack changes constantly. Claude ships major features every other week. New enrichment providers launch, old ones get acquired, pricing models shift. The skill is not knowing every tool. It's the meta-skill of picking up any tool quickly.
+What fast tool learning looks like:
+You start with the official documentation and the getting-started tutorial, not just a third-party YouTube video
+You build something small and real with the tool within the first hour, not just watch tutorials
+You find the tool's community (Slack, Discord, Reddit etc.) and search for answers to your specific problem before asking from scratch
+You recognize patterns across tools: most automation platforms have the same core concepts (triggers, actions, conditions, loops) just expressed differently
+How to develop it:
+Give yourself a new tool and a constraint: "I need to build something that does X using this tool in 2 hours." The pressure forces you to learn efficiently instead of comprehensively.
+Skill 3: Understanding Customers
+This is what separates GTM Engineers who build systems that actually generate revenue from those who build technically impressive systems that produce garbage output.
+Automation amplifies. If your understanding of the customer is wrong, automation makes it wrong at scale. If your understanding is right, automation makes it right at scale.
+What this means in practice:
+You can write a specific, detailed ICP definition that goes beyond "B2B SaaS, 50-500 employees"
+You understand the buyer's pain in their language, not your product's language
+You know the difference between a company that fits your ICP and a company that is ready to buy right now
+You've talked to actual customers (or read call transcripts, or studied win/loss interviews) and can identify the specific phrases, concerns, and questions that appear in real deals
+How to develop it:
+Read your company's win/loss interviews. Shadow 5 sales calls. Read 50 LinkedIn posts from your target ICP about the problems you solve. The best AI personalization prompt in the world is only as good as the customer understanding that informs it.
+Skill 4: Copywriting
+Every personalized variable in your outreach, every subject line in your sequence, every LinkedIn message in your automation still needs to be written by someone who understands what makes a human respond.
+AI generates copy. You edit and judge it. You cannot do that well without copywriting instincts.
+What GTM copywriting looks like:
+Short, specific, relevant. A cold email that says "I noticed [Company] just raised a Series B and is hiring SDRs. We help teams like yours build the infrastructure that lets 3 SDRs do the work of 10" is better than one that starts with "I hope this email finds you well."
+Speaks to one specific pain, not a feature list
+Has a clear, low-friction call to action ("Worth a 15-minute call?" not "Please click here to schedule a meeting at your convenience")
+Sounds like a human wrote it, even if 90% of it was generated by Claude
+How to develop it:
+Study cold emails that got a reply from you. Watch Nick Saraev’s video on copywriting. Write 10 versions of the same email and force yourself to choose one. The judgment you develop choosing between versions is the skill.
+Skill 5: Technical Mindset
+You don't need to be a developer. But you need to think like one.
+A technical mindset means:
+You're not afraid of trying something and breaking it (in a test environment)
+You understand that every tool is really just sending data from one place to another in a structured format
+When something doesn't work, you look at the error message and try to understand it before giving up
+You're comfortable with ambiguity and figuring things out without a tutorial for every step
+You understand what an API is (a way for two software tools to talk to each other), what a webhook does (it sends data from one place to another when something happens), and what JSON looks like (a structured format for data)
+How to develop it:
+Build something that breaks. Then fix it. Repeat. The act of debugging is where the technical mindset develops. No course can teach it as well as an error you have to figure out yourself.
+
+2.2 The Hard Skills Layer
+These are the specific, learnable capabilities. They're organized as a progression, not a checklist. Don't try to learn all of these before you ship your first workflow.
+Level 1: Data Literacy (learn this first)
+Before you automate anything, you need to be able to work with data.
+Reading and cleaning CSV files: Understanding columns, handling nulls, spotting duplicates, formatting inconsistencies
+Enrichment field vocabulary: What's the difference between a domain and a URL? What is a firmographic vs. a technographic vs. a behavioral signal? What does "verified email" mean vs. "catch-all"?
+Understanding what clean data looks like: A clean contact record has a first name, last name, verified work email, company domain, job title, LinkedIn URL, and at least one enrichment field relevant to your ICP. Anything less and you're guessing.
+Basic spreadsheet logic: VLOOKUP, COUNTIF, IF statements in Google Sheets. Not advanced, but functional.
+Level 2: No-Code Automation
+This is where most people should spend the majority of their first three months.
+**Clay:** Import contacts, add enrichment columns, write AI column prompts, set up waterfall logic, push enriched leads to a sequencing tool or CRM. Clay is the anchor tool for GTM Engineering. Learn it first.
+**Make (formerly Integromat):** Visual workflow builder. Strong conditional logic. Good for connecting apps that don't have native Clay integrations.
+**Zapier:** The fastest entry point. Most limited at scale, but perfect for learning trigger-action logic.
+**n8n:** The most powerful of the workflow tools. Self-hostable. More technical but significantly more capable than Zapier. This is where most serious GTM Engineers end up.
+Level 3: Sequencing and Deliverability
+No amount of enrichment and personalization matters if your emails go to spam.
+Domain warming: New sending domains need to be warmed before you send cold outreach at volume. Tools like Smartlead and Instantly have built-in warmup. This takes 2-3 weeks and cannot be skipped.
+Inbox rotation: Spreading send volume across multiple inboxes to stay under provider sending limits and protect deliverability
+Spam trigger awareness: Certain words, link patterns, and formatting choices trigger spam filters. Learn the basics.
+Sequence structure: A 3-5 step sequence with appropriate time delays, a mix of short and medium-length emails, and a clear value proposition at each step
+Reply classification: Understanding how to classify replies automatically (positive, neutral, negative, unsubscribe) so you can route them correctly
+Level 4: AI Prompting for GTM
+This is different from general AI prompting. GTM-specific prompting is about getting consistent, structured, useful output at scale from hundreds or thousands of rows of data.
+Structured output prompts: Writing prompts that return a specific format (e.g., always return a JSON object with fields "icebreaker", "pain_point", "call_to_action") so you can use the output in downstream steps
+Personalization prompts: Using enrichment data (company description, recent funding, job posting language, LinkedIn summary) as input to generate unique, relevant opening lines
+Classification prompts: Using AI to categorize data ("Is this job title a decision-maker for a sales tool? Answer yes or no.")
+ICP scoring prompts: Using AI to score a contact's fit against a defined ICP description and return a score with a reason
+Prompt testing: Running a prompt against 20-30 diverse rows before deploying it to a full table. The variance you see in a small sample tells you whether the prompt is reliable.
+Level 5: API Basics
+You don't need to build APIs. You need to understand them well enough to use them.
+What an API is: A set of rules for how two software systems communicate. Think of it as a waiter: you tell the waiter (API) what you want, and it goes to the kitchen (the other system) and comes back with the result.
+Authentication: Most APIs require either an API key (a string you copy from the tool's settings) or OAuth (a login flow). Understanding the difference saves you hours of troubleshooting.
+HTTP methods: GET (retrieve data), POST (send data), PATCH (update data), DELETE (remove data). You mainly use GET and POST in GTM workflows.
+JSON format: Most API responses are JSON. Being able to read a JSON response and identify the field you want is a foundational skill. It looks like this:
+{
+  "first_name": "Bolaji",
+  "company": "Distrobird",
+  "email": "bolaji@distrobird.com",
+  "linkedin_url": "linkedin.com/in/bolajianifowose"
+}
+Testing APIs with tools: Postman or Insomnia let you test API calls without writing code. Use these to understand a new API before connecting it to a workflow.
+Level 6: Low-Code and Light Scripting
+This is where most marketers stop because it looks like "real coding." It's not. It's closer to writing advanced spreadsheet formulas.
+JavaScript in n8n Code nodes: n8n lets you write JavaScript to transform data between steps. The most common uses are: reformatting strings, filtering arrays, combining fields, handling null values. You don't need to write JavaScript from scratch. You need to read it, understand it, and modify it.
+Basic Python for GTM tasks: Python scripts for batch data processing, simple scrapers using BeautifulSoup, or running a Clay-like enrichment job on a local CSV. Again, you don't need to write this from scratch. You need to understand what a script does and be able to run it.
+When to use AI coding tools: Tools like Claude Code, Cursor, and Copilot can write most of the code you need for GTM Engineering tasks. Your job is to specify what you want clearly and review the output critically.
+Level 7: AI Coding for GTM Tools
+This is the newest tier and it's significant. You can now build functional internal tools, enrichment scripts, and live dashboards without being a full-stack developer.
+**Claude Code:** The recommended tool for GTM Engineering. A terminal-based AI agent that reads your project files, writes and runs code, and connects to external tools via MCP servers. Set up a CLAUDE.md file as your context OS, connect Notion and Exa via MCP, and you have an AI environment that understands your entire GTM stack. Best for scripts, APIs, backend tools, and anything that needs to actually run and persist.
+**Lovable / Bolt / v0:** Describe what you want to build in plain English and get a working web application. Good for front-end dashboards and quick UI tools where you need something visual fast.
+**Cursor:** AI-first code editor. You write code alongside an AI that understands your entire codebase. More powerful than browser-based tools for complex, multi-file projects.
+What GTM Engineers build with AI coding tools: Live GTM performance dashboards deployed to Railway or Vercel, enrichment scripts that call APIs and output CSVs, n8n Code node fixes, Clay formula generators, territory assignment tools, outreach performance monitors
+
+2.3 Soft Skills That Separate Good From Great
+These are the skills that are almost never listed in job descriptions and almost always decide who becomes a senior GTM Engineer vs. who stays at the intermediate level.
+Experimental Mindset
+The best GTM Engineers ship and measure, rather than design until perfect. An imperfect system running on real data teaches you more in a week than a perfect system that exists only in Notion.
+This means:
+Shipping a workflow to 500 contacts before deploying it to 5,000
+A/B testing subject lines, opening lines, and send times by default
+Killing what doesn't work quickly instead of hoping it improves
+Treating every workflow as a hypothesis: "I think this combination of signals and messaging will produce X reply rate"
+Documentation Discipline
+Workflows built without documentation become unmanageable at scale. A system you built 6 months ago with no notes is a system you have to reverse-engineer.
+This means:
+Naming every workflow, every table, every column clearly and consistently
+Leaving comments in n8n Code nodes explaining what the code does and why
+Recording a Loom walkthrough of every significant system you build
+Writing a one-page runbook for any workflow that someone else might need to operate or debug
+Revenue Intuition
+This is the ability to look at a pipeline metric and understand what it means for the business, not just what it means for the workflow.
+A 3% reply rate on a cold email sequence might look fine on a dashboard. But if positive replies are only 0.2% and those meetings are converting to deals at 10%, the math doesn't work. Revenue intuition is understanding the entire chain from signal to deal.
+Stakeholder Communication
+You will build systems that non-technical people depend on. The ability to explain what a system does, why it's set up a certain way, and what to do when it fails, in plain English, is a career skill.
+A GTM Engineer who can say "here's what we built, here's why it works, here's how to interpret the output" will always be more trusted than one who treats their workflows as a black box.
+
+Continue to [Part 3: The Tool Stack](https://app.notion.com/p/Part-3-The-Tool-Stack-3b0006a407cb82fa8f7e01732d45786d?pvs=21)
+
+<aside>💡
+Mental model first. Every tool lives in a category. You don't need every tool. You need one solid tool per category. The stack evolves as you level up, and the tools in each category are more interchangeable than most people think. Don't let tool choice paralysis stop you from building.
+</aside>
+
+3.1 How to Think About the Stack
+The categories are stable; the tools inside them change
+New enrichment providers launch every month. Sequencing tools rebrand and get acquired. AI model pricing shifts. What stays constant is the category structure:
+Data and Enrichment - where leads come from and how you learn about them
+Workflow Orchestration - the automation layer that connects everything
+LLM and Generative AI - the intelligence layer that personalizes and classifies
+CRM - the system of record for all contacts and deals
+Engagement and Outbound - how you actually reach prospects
+Sending Infrastructure - the domains and inboxes your emails actually send from
+SEO and Content - how you build inbound alongside outbound
+AI Coding - how you build custom tools without being a developer
+Tools you own vs. tools you pass data through
+Some tools are systems of record - they store the ground truth. Your CRM is the system of record for contacts and deals. You own it. You maintain it.
+Other tools are pass-through - data flows in, gets processed, and flows out. Enrichment providers are pass-through. Sequencing tools are largely pass-through. You use them and move on.
+The distinction matters for budget decisions. You invest in systems of record. You shop around for pass-through tools.
+
+3.2 The Full Stack, Category by Category
+Data and Enrichment
+Clay (the anchor tool)
+Clay is where you build your ICP lists, enrich contacts, apply AI scoring, and orchestrate the output to other tools. It connects to 100+ data providers through a single interface. Start here.
+Apollo.io
+One of the largest B2B contact databases. Good for building initial prospecting lists. Also has sequencing built in, though most serious practitioners use a dedicated sequencing tool.
+Prospeo
+Email finding tool with high accuracy. Good as a first or second layer in an email waterfall.
+Leadmagic
+Email and phone enrichment. Strong on LinkedIn-based lookups.
+Clearbit (now part of HubSpot)
+Company and contact enrichment. Strong on firmographic data. Has real-time enrichment for inbound forms.
+Hunter.io
+Email finding tool. Strong for domain-based lookups ("find me all the emails at company X").
+LinkedIn Sales Navigator
+The primary source for finding and filtering ICP prospects. The search filters (industry, headcount, seniority, geography, job change recency) are the foundation of most outbound list builds.
+BuiltWith / Wappalyzer
+Technographic data. Which tools does a company use? This is how you find companies using Salesforce, or Shopify, or any competitor tool that signals they're in your market.
+RB2B
+Identifies anonymous website visitors and matches them to LinkedIn profiles. A high-intent signal for outbound: if someone from a target account visits your pricing page, you know about it.
+Bombora / 6sense
+Intent data platforms. Track which companies are researching topics related to your category across the web. More expensive, relevant at the mid-market and enterprise level.
+Common Room / Unify / Keyplay
+Buying signal aggregation platforms. These surface signals across multiple sources (LinkedIn engagement, G2 activity, hiring signals, product usage) in a single dashboard.
+Apify
+A marketplace of pre-built scrapers. LinkedIn company pages, job postings, G2 reviews, Google Maps, Twitter profiles. No code required for most use cases. Use it when the data you need isn't available through an enrichment API.
+PhantomBuster
+Pre-built LinkedIn automation. Scrape Sales Navigator search results, company employee lists, and post engagements. Good for building prospect lists directly from LinkedIn without manual effort.
+
+Workflow Orchestration
+n8n (recommended for serious practitioners)
+The most powerful no-code/low-code workflow automation tool. Self-hostable (you can run it on your own server, which means no per-task pricing). Has a Code node for JavaScript and Python when you need logic that can't be expressed visually. This is where most serious GTM Engineers end up.
+Make (formerly Integromat)
+Strong visual interface. Better than Zapier for complex multi-step logic. Good middle ground between Zapier's simplicity and n8n's power.
+Zapier
+The most accessible entry point. Largest library of app integrations. Limited for complex logic and expensive at scale, but perfect for learning the fundamentals of trigger-action automation.
+
+LLM and Generative AI
+OpenAI (GPT-4o)
+The most widely integrated LLM. Available natively in Clay as an AI column provider. Strong general-purpose text generation and structured output.
+Anthropic Claude
+Excellent for long-context tasks, nuanced copywriting, and complex reasoning. Claude follows instructions more precisely than GPT for structured output tasks. Available via API in n8n and Make.
+Google Gemini
+Strong multimodal capabilities (text plus images). Competitive pricing. Growing integration with Google Workspace tools. Personally, I find Gemini models among the best for visual tasks: image generation, UI work, and front-end development.
+Open Router
+Think of Open Router as all your LLMs in one place. It's credits-based, and you get access to almost every major model (OpenAI, Claude, Gemini, open source models) through a single API. Useful when you want to switch models without changing your integration.
+Groq
+Provides fast inference for open source models (Llama, Mistral, and others) at lower cost than the major providers. If you're running high-volume, simple classification or transformation tasks, Groq is worth knowing.
+OpenAI Open Source Models (gpt-oss-120b and gpt-oss-20b)
+OpenAI's open-weight reasoning models, released August 2025 under the Apache 2.0 license. gpt-oss-120b performs near OpenAI o4-mini on reasoning benchmarks and runs on a single 80GB GPU. gpt-oss-20b matches o3-mini quality and runs on just 16GB of memory, making it viable on local hardware. Both support tool use, structured output, and 128k context. Available on Hugging Face, Open Router, Fireworks, and Together AI. Good for high-volume, cost-sensitive tasks where you want strong reasoning without API costs.
+Wispr Flow
+AI voice dictation that works anywhere on your computer. Speak and it transcribes with AI, handling punctuation, formatting, and context automatically. For GTM Engineers, this means dictating Claude Code instructions, describing n8n workflow logic out loud, drafting cold email copy without touching the keyboard, or narrating Clay formula logic while your hands are free. Cuts the gap between thinking and executing, especially useful when you are context-switching fast across multiple tools.
+AirOps
+Builds AI workflows specifically for GTM use cases: content generation at scale, blog writing, outreach personalization, research synthesis. Has a visual workflow builder built on top of LLMs.
+Octave
+AI-powered GTM context engine. You encode your ICP, personas, positioning, and competitive intel into Octave as structured playbooks, and it feeds that context into every AI agent and outbound workflow in your stack. Means your Clay AI columns, your sequencer copy, and your outreach agents all run on your actual positioning instead of generic LLM output. Has an MCP server so Claude Code and other agents can pull live GTM context directly.
+
+CRM
+HubSpot (start here for most use cases)
+The standard CRM for SMB and mid-market B2B. Free tier is genuinely useful. Strong native integrations with most GTM tools. If you're learning, start with HubSpot.
+Attio
+A modern, flexible CRM designed for the current generation of GTM teams. Strong on data modeling and automation. Growing fast in the startup ecosystem.
+Salesforce
+The enterprise standard. More complex to configure, more powerful at scale. Understanding Salesforce object architecture (Leads, Contacts, Accounts, Opportunities) is valuable even if you're not using it directly.
+Close / Pipedrive
+SMB-focused alternatives with simpler interfaces. Good for early-stage companies that don't need the complexity of HubSpot.
+
+Engagement and Outbound
+Instantly
+High-volume cold email platform with strong deliverability features. Built-in inbox warmup and rotation. Preferred by practitioners doing large-scale outbound.
+Smartlead
+Similar to Instantly. Strong deliverability infrastructure, AI-powered reply detection, and multi-channel capabilities.
+Lemlist
+Personalization-first sequencing tool. Strong for adding dynamic images and video to email sequences. Good multichannel (email plus LinkedIn) capabilities.
+La Growth Machine
+LinkedIn-first multichannel outreach. Strong for combining LinkedIn connection requests, messages, and email in a single sequence.
+Reply.io
+
+<aside>📌
+How to use this roadmap. Each stage has a milestone at the top. Read the milestone first. If you can already do what it describes, skip to the next stage. Don't spend time on what you already know.
+The 6 months assumes roughly 8-10 hours per week of focused learning and building. More hours means faster progress. Zero building means no progress, regardless of how much you read.
+</aside>
+
+The 6-Month Overview
+Month
+Stage
+Focus
+Key milestone
+Month 1
+Stage 0
+GTM Foundations
+Write a complete ICP, map a funnel on paper, no tools yet
+Month 1-2
+Stage 1
+Automation Foundations
+Ship a live Clay pipeline and a running cold email sequence
+Month 3-4
+Stage 2
+System Building
+A multi-step workflow running on real data without manual input
+Month 5-6
+Stage 3
+Technical Depth
+An autonomous AI agent producing measurable pipeline output
+
+Stage 0: GTM Foundations
+Month 1, Weeks 1-2
+Milestone: You can write a specific ICP definition, articulate a clear value proposition, and draw a basic outbound funnel on paper. You have not opened Clay yet.
+Most people skip this stage because it feels like "not doing the real work." That's exactly why so many GTM Engineering systems produce great-looking automation around messaging that misses the buyer entirely.
+You cannot automate what you don't understand. Build the mental model first.
+<aside>💡
+A concrete example of where GTM Engineering starts. A few years ago, writing alt text for every image on a website was a manual SEO task that could take hours. A GTM Engineer embedded in a marketing team would build a workflow that automatically generates contextually accurate alt text for every new image uploaded, running in the background without human input. That's the mindset: find the repetitive, rule-based task, automate it, free up the person to do the work that actually requires judgment.
+</aside>
+What to learn
+ICP Definition
+ICP stands for Ideal Customer Profile. It's not a vague description. A useful ICP has:
+Firmographics: Industry, company size (employee count and/or revenue), geography, business model (B2B vs B2C, SaaS vs services, etc.)
+Technographics: What tools does this company use? A company using Salesforce and Outreach signals a certain level of sales maturity and budget.
+Behavioral triggers: What events signal that this company is in a buying window? A new VP of Sales hire. A recent funding round. A job posting for a role your tool helps them fill faster.
+Pain-to-value mapping: What is the specific pain this ICP has that your product solves? In their language, not yours.
+A weak ICP: "B2B SaaS companies with 50-500 employees."
+A strong ICP: "Series A and B B2B SaaS companies (30-200 employees) with an outbound sales motion, using Salesforce or HubSpot, who have hired an SDR team in the last 12 months but haven't yet built systematic enrichment infrastructure."
+GTM Motions
+Understand the four main motions, because the automation you build is completely different for each:
+Outbound (Sales-Led): You find prospects and reach out. Automation applies to list building, enrichment, sequencing, and reply handling.
+Inbound (Marketing-Led): Buyers find you. Automation applies to lead enrichment, scoring, routing, and nurture sequences.
+Product-Led (PLG): The product itself is the acquisition mechanism. Automation applies to onboarding triggers, usage-based expansion signals, and health score monitoring.
+Partnerships-Led: Growth through channel partners, integrations, or co-marketing. Automation applies to partner onboarding, co-sell tracking, and ecosystem signal monitoring.
+Funnel Stages and Metrics
+Know what each stage means and what a good conversion rate looks like:
+Awareness to Lead: Someone enters your world (views content, visits site, fills out form)
+Lead to MQL (Marketing Qualified Lead): Meets ICP fit criteria
+MQL to SQL (Sales Qualified Lead): Has expressed buying intent
+SQL to Opportunity: A deal is opened
+Opportunity to Closed/Won: Deal closes
+For outbound specifically, benchmark metrics:
+Reply rates: 3-8% (highly variable by ICP and message quality)
+Positive reply rates: 1-3%
+Meeting booked from positive reply: 50-70%
+Positioning and Messaging Basics
+Before you write personalized outreach at scale, you need a clear base message:
+What is the one problem you solve better than anything else?
+Who has that problem most acutely?
+What is the cost of that problem not being solved?
+What is the proof that you solve it?
+What to read
+“Obviously Awesome” by April Dunford - one of the best books on positioning. Read this before writing a single outreach message.
+“Go-To-Market Strategist” by Maja Voje - practical GTM frameworks for modern teams
+Growth Unhinged newsletter by Kyle Poyar - weekly analysis of how real companies think about GTM
+**HubSpot Academy free certifications** - Inbound Marketing and Sales certifications. Free, solid foundations.
+Milestone check
+<aside>✅
+You can write a 3-paragraph ICP definition that includes firmographics, technographics, and at least two behavioral triggers.
+You can explain the difference between outbound and PLG and describe what automation looks like in each.
+You can name the five stages of a B2B sales funnel and the key metric at each stage.
+You have not opened Clay yet. That's correct.
+</aside>
+
+GTM System Design
+Most GTM Engineers learn to build workflows. Fewer learn to design systems. The gap between the two is what separates practitioners who ship automations from practitioners who build infrastructure that compounds over time.
+A workflow is a single chain of steps. A system is the set of rules, connections, and dependencies that determines how data moves from a signal to an action, what happens when something breaks, and how the whole thing evolves as your market and product change.
+Read this section before you open any tool. The mental model here will shape how you build everything in the stages that follow.
+The Five Layers of a GTM System
+Every GTM system, regardless of the tools used, has the same five layers:
+Signal layer: where inputs come from. Funding rounds, job postings, website visits, product usage events, form fills, LinkedIn engagement. This is the raw material.
+Enrichment layer: what you add to raw signals to make them actionable. Company headcount, tech stack, decision-maker contact, recent news. Clay and your enrichment waterfall live here.
+Intelligence layer: scoring, classification, and decision-making. ICP fit scores, intent tiers, routing logic. This is where AI columns, JavaScript functions, and LLM calls live.
+Action layer: what the system does with a qualified, enriched, scored lead. Add to sequence, notify in Slack, update CRM, trigger a LinkedIn connection request. This is your sequencer and CRM.
+Feedback layer: outcomes flowing back into the system. Reply data, meeting booked signals, won/lost deal data. A mature system uses feedback to update scoring models and suppress contacts who have already been reached.
+
+When you design a system before you build it, you are mapping these five layers and deciding what happens at each one.
+Design Principles
+One system of record. Every piece of data has a single authoritative source. Your CRM is the system of record for contacts and deals. Not your Clay tables, not your Google Sheets, not your n8n memory. Everything else is a pass-through. Data flows into the system of record; it does not live anywhere else permanently.
+Design for failure. Every external API call can fail. Every enrichment provider returns empty results sometimes. Every AI column produces unexpected output occasionally. Before you ship a workflow, answer: what happens when this step returns nothing? Add fallbacks, error branches, and Slack alerts for failures that matter.
+Separate signals from actions. The workflow that collects and scores signals should be distinct from the workflow that triggers actions. This lets you change your scoring logic without breaking your outreach, and change your outreach tools without rebuilding your enrichment layer.
+Deduplication before action. Before any contact enters an action workflow, check whether they are already in your CRM, already in an active sequence, or already a customer. Running the same contact through a workflow twice is the most common GTM system failure mode and the easiest to prevent.
+Build for observability. You cannot fix what you cannot see. Every system needs a logging layer: a Notion database, a Google Sheet, or a Slack alert channel that records what happened, when, and why. When a workflow misfires, you need to be able to trace exactly where it went wrong.
+How to Map a System Before You Build It
+Before opening n8n or Clay, draw the system on paper or in Excalidraw:
+What is the trigger? What event starts this system?
+What data do you need that you don't already have? That's your enrichment layer.
+What is the decision? What qualifies a contact for action vs. no action? That's your intelligence layer.
+What is the action? Sequence, CRM update, Slack alert, all three?
+What is the failure mode at each step? What does the system do when step 2 returns nothing?
+What feedback closes the loop? How does an outcome (meeting booked, deal lost) flow back to improve the system?
+A system you can draw clearly is a system you can build cleanly. Ambiguity in the diagram becomes bugs in the workflow.
+Before opening any tool, capture your answers to the six questions above in a written workflow spec: trigger, enrichment layers, routing logic, copy variables, output destination, and failure handling. The spec is the contract your Clay table and n8n workflow are built against.
+
+Common GTM System Patterns
+Signal-triggered outbound: A new signal (funding round, hiring surge, G2 review, job change) triggers enrichment, ICP scoring, and if qualified, adds the contact to a sequence. The system runs daily without manual input.
+Inbound routing: A form submission triggers enrichment, scores ICP fit, and routes the contact. High fit goes to Slack for immediate follow-up, medium fit goes to a nurture sequence, low fit gets a CRM record with no action.
+Account-based monitoring: A list of target accounts is monitored continuously for buying signals. When a signal threshold is crossed (two or more signals firing within 30 days), the account moves from monitored to active outreach.
+Feedback loop: Reply data from your sequencer flows back via webhook into your CRM, updates the contact stage, suppresses them from future sequences, and logs the outcome to your reporting layer.
+The question that separates system designers from workflow builders
+After designing any system, ask: what happens when this runs 1,000 times? A workflow that works on 10 contacts can break on 1,000 due to API rate limits, duplicate contacts, missing fields, or edge cases you did not anticipate. System designers think at scale before they build at scale.
+
+Stage 1: Automation Foundations
+Month 1 (Week 3-4) through Month 2
+Milestone: You have shipped a real Clay enrichment pipeline to a list of actual contacts, and you have a cold email sequence live in Instantly or Smartlead.
+This is where most people want to start. Resist the urge to skip Stage 0. The people who skip it spend weeks building technically correct workflows that produce the wrong output.
+What to learn
+Clay from scratch
+Clay is the enrichment and orchestration layer of a GTM engineering stack. It looks like a spreadsheet, but every column is a live function: call an enrichment API, run an AI prompt, make an HTTP request, or apply conditional logic. Here is the full skill stack to learn, in order.
+The FETC Framework
+Clay's mental model for every workflow is FETC (pronounced "fetch"). It evolved from their original FETE framework by replacing Export with Create, because AI lets you do more than move data between systems.
+Find: Source your raw inputs. A CSV of company domains, a Clay-native company search, inbound form data piped via webhook, or signals from job postings and news.
+Enrich: Pull data on each record from external providers. Company description, headcount, funding, LinkedIn URL, verified email, tech stack. Use waterfall logic to maximize coverage across providers.
+Transform: Use AI to clean, structure, and classify enriched data before you act on it. Two modes: AI Formulas for deterministic tasks (formatting, extraction, math), and Claygent for generative classification (business model, ICP segment, intent score).
+Create: Use the enriched, transformed data to generate a deliverable. Most commonly, personalized outreach copy. But also: sales copilot docs, account briefs, battle cards, territory plans.
+Core Skill Stack
+Import contacts: Bring in a CSV of company names and domains, pull from Clay's native company database, or trigger via webhook for inbound leads.
+Enrichment columns: Add columns that call external providers. Company description from Clearbit. Headcount from Apollo. LinkedIn URL from Prospeo. Each column is a separate API call, billed per successful result.
+Waterfall logic: Sequence multiple providers for a single field. Try Prospeo first. If empty, try Leadmagic. If empty, try Hunter. Clay stops as soon as a result comes back, keeping credit spend low while maximizing coverage.
+AI columns: Write a prompt that uses enrichment data to produce something useful. Score the lead. Classify the company. Draft a personalized opening line. Build one column per component (opening line, value prop, CTA) rather than generating full emails end-to-end. Modular snippets are more accurate and easier to debug.
+HTTP columns: Call any API that Clay doesn't natively support. Configure the method (GET/POST), endpoint, headers, and body using Clay field references as variables. Use cases: check Instantly campaign membership before adding a lead, hit your own scoring endpoint, pull from a niche data provider, or trigger a webhook to n8n for complex downstream routing.
+Formulas and lookups: Clay has spreadsheet-style formulas and cross-table lookups. Key skills: IF() for conditional logic, VLOOKUP() to match contacts against a blocklist or account tier table, string manipulation for cleaning company names and extracting domains, AND() / OR() for routing logic, and date functions for flagging records by recency. AI Formulas handle deterministic AI tasks without consuming credits. Use them aggressively for cleanup before running expensive enrichments.
+Pushing output: Send enriched, scored leads to HubSpot, Instantly or Smartlead (directly into a campaign sequence), Google Sheets for review, or Slack for high-intent lead alerts.
+Prompt engineering for Clay AI columns
+The most common beginner mistake is writing vague prompts. A vague prompt produces vague output that you can't use in outreach.
+Compare:
+Weak: "Write a personalized intro for this prospect."
+Strong: "You are writing a cold email opening line for a sales rep reaching out to {{first_name}} at {{company_name}}. The company recently {{recent_news}}. The email is from a company that helps B2B sales teams automate their enrichment workflows. Write one sentence (max 20 words) that references the recent news and connects it to the problem of manual prospecting. Do not start with 'I noticed'. Do not use the word 'exciting'. Return only the sentence, no explanation."
+Rules for Clay AI column prompts: define the role, specify the exact output format, list what to exclude, reference Clay field variables with {{field_name}} syntax, and always end with "Return only [the output], no explanation."
+Claybooks
+One of the best ways to learn Clay is to reverse engineer existing Claybooks. Go through the templates at university.clay.com/use-case-templates, pick ones that match your ICP or use case, and rebuild them column by column from scratch.
+Email deliverability basics
+This is non-negotiable. Skip it and your emails go to spam.
+New sending domains: Don't use your primary company domain for cold outreach. Buy a separate domain (yourcompanyname.io, yourcompanyname.co). Forward it to your main domain.
+Domain warming: Use the built-in warmup feature in Instantly or Smartlead for 2-3 weeks before sending to cold contacts. Warmup tools send low-volume, reply-generating emails between real inboxes to build sender reputation.
+Volume limits: Start with 15-20 emails per inbox per day. Increase gradually.
+Inbox rotation: Spread your sending volume across multiple inboxes. If one gets flagged, others keep running.
+Plain text first: HTML-heavy emails trigger spam filters. Start with plain text.
+n8n Fundamentals
+Start with n8n from day one. It has a learning curve, but the ceiling is high enough that it is worth learning properly from the start rather than migrating off simpler tools later. The core concepts to understand in your first week:
+What a trigger is (the event that starts a workflow: a form submission, a webhook call, a new spreadsheet row, a schedule)
+What an action is (what the workflow does in response: call an API, update a CRM record, send a Slack message)
+How to use the If node for conditional logic (only proceed if a condition is true)
+How to use the Set node to create or modify data fields
+How to use the HTTP Request node to connect to any tool without a native integration
+Build one real workflow in n8n. Not a tutorial exercise. Example: When a new row is added to Google Sheet, send a Telegram notification with the contact's name, company, and ICP score.
+Once you understand the basics, reverse engineer existing templates at n8nworkflows.xyz. Open a template, map every node, understand why it's structured that way, then rebuild it from scratch.
+JSON basics
+When tools communicate via APIs, they send data as JSON. You don't need to write JSON, but you need to read it.
+{
+  "contact": {
+    "first_name": "Bolaji",
+    "last_name": "Anifowose",
+    "email": "bolaji@example.com",
+    "company": {
+      "name": "LoopGTM",
+      "headcount": 45,
+      "industry": "SaaS"
+    }
+  }
+}
+Practice: find any API documentation (HubSpot's is well-written and free to access) and read through a sample response. Try to identify every field and what it means.
+Projects to build in Stage 1
+Project 1: The ICP Enrichment Table
+Take a list of 50 real companies in a target ICP. Import them into Clay. Add enrichment columns for: industry, headcount, tech stack (BuiltWith), LinkedIn URL for the decision-maker, and verified email. Add an AI column that scores each company's ICP fit from 1-10 with a one-sentence reason. Export the top 20 as a CSV.
+Project 2: Your First n8n Workflow
+Build an n8n workflow that does one useful thing automatically. Suggestions:
+New HubSpot contact creation triggers a Slack message
+New row added to a Google Sheet triggers an email notification
+New form submission creates a Attio contact
+Project 3: Your First Live Sequence
+Set up a 3-step cold email sequence in Instantly or Smartlead:
+Step 1 (Day 1): A short, personalized intro email using an AI-generated opening line from your Clay table
+Step 2 (Day 3): A follow-up that adds one more angle or piece of value
+Step 3 (Day 5): A short breakup email
+Warm your inbox for 2-3 weeks before sending to real contacts.
+Resources for Stage 1
+Clay University - the official free course. Do the whole thing.
+Tim Yakubson: Clay Course - comprehensive Clay walkthrough on YouTube
+Nate Herk: n8n Masterclass - the best n8n tutorial available
+Cold Email Copywriting - how to write cold email copy that gets replies
+Instantly's YouTube channel - deliverability and sequence setup guides
+Instantly Academy - in-depth training on deliverability, campaign setup, and inbox management from Instantly
+Smartlead University - Smartlead's training for cold email infrastructure and campaign management
+Make Academy - automation courses from Make, covering workflows, integrations, and no-code logic
+Lemlist Academy - cold outreach and LinkedIn automation training from Lemlist
+Clay B2B Cold Email Deliverability Guide - Clay's end-to-end guide on domains, warmup, and sending infrastructure
+Clay Community Slack - the most active GTM Engineering community
+Milestone check
+<aside>✅
+You have a Clay table with at least 50 enriched contacts, including verified emails and an AI-generated ICP score.
+You have a 3-step cold email sequence live in Instantly or Smartlead, with a warmed inbox.
+You have built at least one n8n workflow that is running and doing something useful.
+You can explain what waterfall enrichment is and why it matters.
+</aside>
+
+Stage 2: System Building
+Months 3-4
+Milestone: You have a live, multi-step workflow running on real data without daily manual input. You can explain every node in the chain and you understand what each one does if it fails.
+This is the stage where things start to feel like real GTM Engineering. You stop building individual automations and start chaining them into systems.
+What to learn
+Multi-step n8n & Clay workflows
+By Stage 2, you move beyond single trigger-action pairs into chained, multi-step workflows. The key n8n concepts to add at this stage:
+Webhook node: Receives data from another tool when something happens (a new lead, a form submission, a Clay push)
+HTTP Request node: Calls any API directly. This is how you connect to tools that don't have a native n8n integration.
+If node: Conditional logic. "If ICP score is above 7, route to Sequence A. If below 7, route to a nurture list."
+Set node: Creates or modifies fields in the data being processed
+Code node: Runs JavaScript when you need logic that can't be expressed visually
+Loop Over Items: Processes a list of records one at a time, running the same workflow on each
+Signal stacking
+Instead of triggering outreach based on one signal, combine multiple:
+Company raised a funding round in the last 30 days AND
+They're hiring for a VP of Sales or Head of Revenue AND
+They use Salesforce (technographic match to your ICP)
+A contact matching all three signals is significantly more likely to be ready to buy than one matching only one. Build Clay tables or n8n workflows that apply this stacking logic automatically.
+How to source signals:
+Funding: Crunchbase API, Harmonic, Dealroom
+Hiring: LinkedIn Sales Navigator, job board scraping
+Technographic: BuiltWith, Clay's native technographic enrichment
+Intent: Prospeo, G2 intent data (available through Clay)
+AI personalization at scale
+Move beyond generic opening lines to research-based personalization:
+Pull the company's latest blog post or press release using a scraping tool or Clay's web scraper
+Extract the key theme or news item using an AI column
+Write a prompt that connects that specific news item to the pain your product solves
+The result is an opening line that references something real and recent, not a generic template
+Example output: "Saw the announcement about your Series B. Companies scaling from 30 to 100 SDRs usually hit a wall with manual list building around month 3. Worth a quick call?"
+Clay integrations
+Push enriched leads directly from Clay to:
+HubSpot: Creates or updates contact records with enrichment fields
+Instantly / Smartlead: Adds contacts to a specific sequence
+Slack: Sends a notification when a high-score lead is found
+Google Sheets: Logs output for reporting
+Basic scraping
+Sometimes the data you need isn't in an enrichment API. Scraping is how you get it.
+**Apify:** A marketplace of pre-built scrapers. LinkedIn company pages, job postings, G2 reviews, Google Maps, Twitter profiles. No code required for most use cases.
+**PhantomBuster:** Pre-built LinkedIn automation. Scrape Sales Navigator search results, company employee lists, post engagements.
+**Clay's built-in web scraper:** Can pull the text content of any URL. Use this to scrape a company's about page, recent blog post, or pricing page as input for an AI personalization column.
+Projects to build in Stage 2
+Project 1: Signal-Triggered Outbound Pipeline
+Build a full pipeline that:
+Sources companies that have raised a funding round in the last 30 days from a specific sector (use Crunchbase or a Clay integration)
+Enriches the top 3 decision-maker contacts at each company in Clay
+Scores ICP fit using an AI column
+For contacts scoring 7 or above, generates a personalized email opening line using the funding announcement
+Pushes those contacts to an Instantly sequence automatically
+This pipeline should run without you touching it after the initial setup.
+Project 2: Inbound Lead Enrichment
+Connect your HubSpot form to a workflow that:
+Receives the new form submission via webhook in n8n
+Calls Clay or an enrichment API to append company data to the contact
+Scores ICP fit
+Routes high-fit leads to a notification in Slack (for immediate follow-up) and low-fit leads to a nurture sequence
+Project 3: Content Distribution Automation
+If you publish content, build a workflow that:
+Detects when a new blog post is published (via RSS feed trigger in n8n)
+Summarizes the post using Claude or GPT
+Generates a LinkedIn post draft from the summary
+Saves the draft to a Notion page or Google Doc for review before publishing
+Resources for Stage 2
+Eric Nowoslawski / Growth Engine X on LinkedIn and YouTube - advanced Clay workflows
+Jordan Crawford / Blueprint - ICP-first thinking applied to GTM systems
+Apify documentation and template library
+Nate Herk: n8n Masterclass - the best n8n tutorial available
+n8n community forum - search before asking, most problems have been solved
+Milestone check
+<aside>✅
+You have at least one multi-step workflow running in n8n that processes real data without manual input.
+You can describe what every node in your workflow does and what happens if it fails.
+You have built at least one signal-triggered outbound pipeline that sources, enriches, scores, and sequences contacts automatically.
+You understand what signal stacking is and have applied it in at least one workflow.
+</aside>
+
+Stage 3: Technical Depth
+Months 5-6
+Milestone: You have built one AI agent that runs autonomously, makes decisions based on data, and produces measurable pipeline output. You can write a 20-30 line JavaScript function to solve a GTM data problem.
+This stage is where the gap between intermediate and advanced GTM Engineers opens up. The skills here are learnable by anyone, but they require a real investment of focused practice.
+What to learn
+JavaScript in n8n Code nodes
+You don't need to become a JavaScript developer. You need to be able to write functions that solve specific GTM data problems. The most common use cases:
+String manipulation: Cleaning job titles, normalizing company names, formatting phone numbers
+Array processing: Filtering a list of contacts based on multiple conditions, deduplicating records, sorting by score
+Conditional logic: More complex conditions than the visual If node can handle
+Data transformation: Reshaping a JSON object from one API format to match what another API expects
+Sample Code node you'll write within 2 months of practice:
+// Normalize job titles into seniority buckets
+const title = $input.item.json.job_title.toLowerCase();
+
+let seniority = 'unknown';
+
+if (title.includes('chief') || title.includes('ceo') || title.includes('cto') || title.includes('cmo') || title.includes('cro')) {
+  seniority = 'c-suite';
+} else if (title.includes('vp') || title.includes('vice president') || title.includes('head of')) {
+  seniority = 'vp';
+} else if (title.includes('director')) {
+  seniority = 'director';
+} else if (title.includes('manager') || title.includes('lead')) {
+  seniority = 'manager';
+} else if (title.includes('analyst') || title.includes('associate') || title.includes('specialist')) {
+  seniority = 'individual-contributor';
+}
+
+return [{ json: { ...($input.item.json), seniority_bucket: seniority } }];
+This is a real, useful GTM script. You should be able to write something like this by the end of Month 6.
+Direct API calls
+Move beyond the native integrations in Clay and n8n. Call APIs directly:
+Prospeo API: Find emails without going through Clay
+Crunchbase API: Funding data for signal-triggered workflows
+OpenAI / Anthropic API: Call LLMs directly with custom parameters and system prompts
+All API calls follow the same pattern in n8n: HTTP Request node, set the method (GET/POST), set the URL, set the authentication header, set the request body (for POST requests), map the response fields to your workflow.
+CRM architecture
+Understanding HubSpot or Salesforce at a deeper level than most marketers:
+Object model: Contacts, Companies, Deals, and Activities are separate objects with relationships between them. A Contact belongs to a Company. A Deal is associated with Contacts.
+Custom properties: Create fields that match your ICP model (ICP score, signal stack, intent tier) and populate them automatically from your workflows
+Lifecycle stages and pipeline stages: The difference between a contact lifecycle (subscriber, lead, MQL, SQL, customer) and a deal pipeline stage. Automate stage changes based on behavior.
+Workflows in HubSpot: HubSpot's native automation. Use it for things that are already in HubSpot (enrollment triggers, email sends, task creation) and use n8n for things that need external data.
+Building AI agents
+An AI agent is a workflow where the AI doesn't just generate text. It decides what to do next based on the information it has. This is the frontier of GTM Engineering.
+A simple AI agent for GTM:
+Agent receives a prospect's name, company, LinkedIn URL, and recent company news
+Agent decides: Is this high-priority (act now), medium-priority (add to standard sequence), or low-priority (add to nurture)? Based on specific criteria you define.
+Agent generates the appropriate response: If high-priority, write a custom email and Slack alert. If medium, add to sequence. If low, tag and skip.
+Agent logs its decision and reasoning to a Notion database for review
+The decision-making step is what makes it an agent rather than a workflow. Build this in n8n using the AI Agent node or by calling the Anthropic or OpenAI API with a structured prompt that returns a classification plus an action.
+Claude Code: building GTM tooling with AI
+By Month 5-6, Claude Code should be your primary environment for writing enrichment scripts, debugging n8n workflows, and building GTM automations. Claude Code is a terminal-based AI coding agent that reads your files, writes and edits code, runs commands, and connects to external tools. It is not a chatbot. It is an agent that operates directly inside your project.
+Three things to set up:
+**CLAUDE.md as your context OS.** Claude Code reads a CLAUDE.md file at the root of any project folder. This is where you define everything the AI needs to know: your ICP, your tool stack, your Clay table conventions, your variable formats, your workflow naming rules. A well-written CLAUDE.md means you never have to repeat context across sessions. It is the difference between a generic AI assistant and one that understands your specific GTM system. Treat it as the operating system for your AI work.
+MCP servers. MCP (Model Context Protocol) connects Claude Code directly to external tools. For GTM Engineering, the useful MCPs are: Notion (read and write your knowledge base, work logs, campaign specs), Exa (web search and prospect research), and any tool that exposes an MCP server. Once connected, you can ask Claude to fetch a Notion page, search the web for a prospect's recent news, or query a database, all inside the same session without switching tabs.
+CLI workflow. Claude Code runs from your terminal inside a project folder. Common patterns:
+Paste a broken n8n Code node, ask Claude to fix it and explain what was wrong
+Describe an enrichment script you need, Claude writes it, runs it, and fixes any errors
+Ask Claude to call an API, process the response, and output a formatted CSV
+Write a Clay AI column prompt and ask Claude to test variants against sample data
+What you build with Claude Code by Month 6:
+Enrichment scripts: Python scripts that call Prospeo or Apollo, process the JSON response, and output a CSV ready for import
+n8n Code node fixes: Real debugging, not guessing
+GTM workflow specs: Describe a system in plain English, get a structured spec you can implement in Clay or n8n
+Automation scripts: Anything that requires logic too complex for a visual workflow builder
+Projects to build in Stage 3
+Project 1: Custom JavaScript Clay Formula
+Write a JavaScript function that runs in a Clay column and solves a real data problem. Suggestions:
+Normalize job titles into seniority buckets (example above)
+Extract the primary industry from a list of comma-separated tags
+Calculate a composite ICP score from multiple numeric fields
+Format a phone number into a consistent international format
+Project 2: Set Up Claude Code for GTM
+Configure Claude Code as your GTM engineering environment:
+Create a project folder with a CLAUDE.md file that defines your ICP, tool stack, Clay variable conventions, and workflow naming rules
+Connect at least two MCP servers: Google Workspace and Exa are the recommended starting pair for GTM work
+Write a real enrichment script: input is a CSV of company domains, output is an enriched CSV with headcount, industry, and decision-maker LinkedIn URL pulled from an API
+Use Claude Code to debug or extend a workflow you built in Stage 2. Paste the broken code node, get it fixed, and understand why it was wrong
+Project 3: Live GTM Performance Dashboard
+Build a multi-source GTM performance dashboard that aggregates outbound, LinkedIn, inbound, and website data into a single live view. It tracks active workflow status, ranks campaigns by performance, and surfaces specific improvement recommendations per campaign using AI. Deploy to Railway or Vercel.
+This is the observability layer described in the Design Principles section, built by you, for your specific stack. It is also the most portfolio-worthy project in Stage 3: a live URL showing real GTM infrastructure you built and operate.
+Data sources to connect
+Instantly or Smartlead: Active cold email campaigns. Pull reply rate, positive reply rate, bounce rate, open rate, and emails sent per campaign. Flag any campaign with bounce rate above 3% or open rate below 20% for review.
+Heyreach: LinkedIn outreach campaigns. Pull connection request acceptance rate, reply rate, and message-level performance per campaign. Surface the top-performing LinkedIn message variant and flag campaigns with acceptance rate below 25%.
+Google Analytics or Posthog: Website visits, traffic by source (organic, direct, referral, paid), and top landing pages by session count. Include a conversion rate if you have a goal or form configured.
+Dashboard sections
+Workflow tracker: A status table showing every active campaign or workflow. Columns: name, channel (email / LinkedIn / inbound), status (active / paused / warming), contacts in sequence, contacts replied, last updated. Color-coded by health: green for on-track, amber for needs attention, red for action required.
+Campaign performance ranking: All active campaigns ranked by positive reply rate, highest to lowest. Each row shows campaign name, channel, emails or messages sent, reply rate, positive reply rate, and a one-line AI-generated improvement suggestion. The suggestion is generated by passing the campaign stats to Claude or GPT with a prompt like: "This campaign has a 4.2% open rate and 0.3% reply rate targeting [ICP]. The subject line is [subject]. In one sentence, identify the most likely reason for low performance and what to change first."
+LinkedIn campaigns (Heyreach): A dedicated section showing each LinkedIn sequence. Metrics: connection requests sent, acceptance rate, replies received, reply rate, and top-performing message step. Highlight the single best-performing message variant across all active campaigns.
+Inbound and website: Traffic this week vs. last week (with delta). Top 3 landing pages by visits. Lead source breakdown as a simple bar or percentage list. Form fills or trial signups if tracked. MQL count from inbound this week.
+What to improve this week: An AI-generated priority list, three to five items, produced by passing all campaign stats to Claude and asking it to identify the highest-leverage improvements across the full stack. Refreshes weekly.
+Resources for Stage 3
+Claude Code for GTM — Joe Rhew - full playlist on using Claude Code for GTM Engineering workflows
+Claude Code for GTM — Mitchell Keller - practical Claude Code GTM walkthrough
+Claude Code documentation - start here for setup and CLI reference
+Milestone check
+<aside>✅
+You have built and deployed an AI agent that runs autonomously and makes decisions based on enrichment data.
+You can write a JavaScript function in an n8n Code node to solve a data transformation problem.
+You have set up Claude Code as your GTM engineering environment: CLAUDE.md configured, at least two MCP servers connected, and at least one enrichment script written and tested.
+You have called at least two external APIs directly (not through a native integration) using the HTTP Request node.
+You have a documented portfolio: at least 3 systems you've built, each with a Loom walkthrough and a before/after metrics comparison.
+</aside>
+
+A Note on Specialization: Content Engineering
+GTM Engineering has sub-specialties emerging within it. One of the clearest is content engineering: building automated systems specifically for content marketing.
+A content engineer builds workflows that:
+Take a product marketing context document (positioning, features, tone of voice) as a persistent input
+Pull in source material (interview transcripts, research reports, customer quotes)
+Generate first drafts that are on-brand, accurate to the product, and SEO-optimized
+Route drafts to a human editor for final review and publishing
+The key distinction from just "using AI to write content" is the system: the workflow keeps itself current as the product context updates, produces consistent output at scale, and has a human in the loop for judgment, not for grunt work.
+If you work in content marketing and are looking for a GTM Engineering entry point, this is yours. You already understand what good content looks like. That judgment is the hardest part to build. The system is learnable.
+What Happens After 6 Months
+At the end of Month 6, you are not a beginner. You have:
+Built and shipped real workflows that handle real data
+Developed a working GTM stack across enrichment, automation, AI, and outreach
+Written code to solve problems that tools couldn't
+Built at least one AI agent that runs without you
+Documented your work in a portfolio
+The path from here leads in two directions:
+Stage 4: Strategic GTM Engineering is about becoming the person who designs full GTM motions from first principles, audits entire stacks, and makes judgment calls about what to build and in what order. This takes another 6-12 months of practice and real revenue accountability. It is not described in detail in this guide because it cannot be learned from a guide. It requires doing the work.
+The freelance/consulting path is available to you now. One well-documented system build is enough to charge for your first freelance engagement. Part 5 of this guide covers how to make that transition.
+"The best GTM Engineers aren't the ones who know the most tools. They're the ones who have shipped the most systems, measured the output, and built the next one smarter."
+
+Continue to [Part 5: Getting Your First Opportunity](https://app.notion.com/p/Part-5-Getting-Your-First-Opportunity-083006a407cb83acbd128106d91f2875?pvs=21)
+
+5.1 The Portfolio Over the Resume
+GTM Engineering roles are not typically filled through traditional hiring pipelines. They're filled through proof.
+A resume that says "experience with Clay and n8n" means nothing. A Loom video showing a live workflow that sourced 500 ICP contacts, enriched them, scored them, and pushed the top 50 into a sequence that generated 12 replies and 4 meetings, that means everything.
+What a GTM Engineering portfolio looks like
+Your portfolio is a collection of documented systems you've built. For each system:
+1. The problem statement
+What was the manual or broken process before you built this? What was it costing in time, money, or missed pipeline?
+2. The system overview
+A simple diagram or description of what you built. What tools are involved? What does each one do? Where does data come in and where does it go?
+3. The Loom walkthrough
+A 3-5 minute screen recording showing the system working in real time. Not a slideshow. The actual tool, the actual data, the actual output.
+4. The results
+Before and after metrics. If you can quantify the impact (reply rates, meetings booked, time saved, leads processed per week), do it. If you can't yet because you're learning, document what the system is designed to produce.
+How to build portfolio pieces without a job
+Build for yourself first. The best first portfolio piece is something that solves your own problem. If you're looking for a job, build an outbound system targeting companies that hire GTM Engineers. You practice the skill and the system does your job search for you.
+Build a content marketing system. If you create content, build the system that runs it. A GTM Engineer's content system connects raw material (interview notes, transcripts, research, your own voice memos) to an AI pipeline that extracts the core insight, generates a LinkedIn post draft, a short-form newsletter version, and a thread outline, then routes everything to a Notion review queue. You write once. The system handles repurposing, formatting, and staging for publication. Build this for your own content first. Once it's running and documented, it is a client-ready portfolio piece you can sell to any founder or marketer who publishes regularly.
+Build for a friend's startup. Find a founder you know who does outbound manually. Offer to build them one automated pipeline for free. Document everything. This is your case study.
+Or skip outbound entirely and build them a social media content system. Take their content calendar or a topic brief, feed it into an n8n pipeline that writes post copy using Claude, generates on-brand graphics using GPT Image 2, and produces short video assets using Seedance (both available via kie.ai). Once the assets are ready, the pipeline stages everything in a Notion review queue. The founder approves with a checkbox. On approval, Buffer's API picks it up and schedules the post to Instagram, and X at the optimal time. No manual posting, no last-minute asset scramble. The founder gets a week of content from a 20-minute briefing session. You get a documented, working system that shows you can orchestrate AI models, APIs, and automation into something a real business uses every day.
+Build for a non-profit or community organization. Any organization that does outreach can benefit from a GTM Engineering system. The work is real, the documentation is yours.
+Rebuild public examples. Follow along with a Clay or n8n tutorial and rebuild the system from scratch without looking at the instructions. Then document your version as if it were your own project.
+What to put on LinkedIn to signal GTM credibility
+LinkedIn is where GTM Engineering opportunities find you, not where you find them.
+Update your headline to include "GTM Engineering" or "GTM Automation" as a skill or focus area
+Post about what you're building. Not tutorials. Your own projects. "I just built a workflow that does X. Here's how it works, here's what I learned, here's what I'd do differently." This type of post attracts inbound from people who need exactly that.
+Document your learning publicly. Every project in this roadmap is worth a LinkedIn post. The Clay table you built in Stage 1. The signal-triggered pipeline from Stage 2. The AI agent from Stage 3. Each one is a post.
+Engage in the Clay and n8n communities. Answer questions. Share solutions. The people watching these communities include hiring managers and agency owners looking for talent.
+
+5.2 Three Paths Into the Role
+Path 1: Internal Pivot
+This is the most underrated path, especially if you're already working at a B2B company.
+You don't need permission to start doing GTM Engineering. You just need to do it and show the results.
+How it works:
+Identify a manual, repetitive process on your team (lead enrichment, follow-up sequences, reporting, CRM updates)
+Build an automated version of it on your own time, using free tools if needed
+Show the output to your manager. "I automated our inbound enrichment process. Here's the time saved and here's the improved data quality."
+Get asked to do more of it
+Negotiate a new scope, title, or role based on what you're already delivering
+The advantage of the internal pivot is that you have the business context, the stakeholder relationships, and the credibility that a new hire doesn't have. The barrier is that you have to do the work before you get the title.
+What to say in the conversation with your manager:
+"I've been learning GTM Engineering and I want to apply it to [specific problem]. I've already built a prototype that does [X]. Can I spend 20% of my time on this for the next 30 days and show you the results?"
+Path 2: Freelance and Consulting
+This path is available to you after Stage 2. You don't need to be at Stage 3 to charge for GTME consulting work. You need to have shipped something real and be able to document the result.
+The GTM Engineer consultant model:
+You get paid to design and build systems for clients. The engagement is project-based: you scope the system, build it, document it, hand it over with a walkthrough. You can earn anywhere from $500 - $3000 for a single build
+What clients pay for:
+Outbound pipeline builds: A Clay enrichment table, connected to a waterfall enrichment setup, connected to an Instantly sequence, with ICP scoring.
+Inbound enrichment and routing: HubSpot form connected to Clay enrichment connected to Slack routing and CRM update.
+Full GTM stack setup: End-to-end from CRM setup through enrichment through outbound through reporting.
+Retainer: Ongoing system maintenance, iteration, and optimization.
+How to find your first client:
+Your network first. Who do you know who runs a B2B startup? Who do you know who has a sales problem?
+LinkedIn outreach using your own GTM Engineering system (practicing what you preach)
+GTM Engineering communities. Post your portfolio. People with problems find people with solutions.
+Offer the first engagement at a significant discount in exchange for a detailed case study you can publish
+Upwork and Fiverr: create a service listing for GTM automation, Clay workflows, or outbound pipeline builds. Early clients care less about your resume and more about whether your listing is specific and credible.
+Reddit communities like r/sales, r/entrepreneur, r/automation, and r/SaaS. Answer questions where your GTM expertise applies. People who see you solving the exact problem they have will reach out.
+How to scope a GTM Engineering engagement:
+Discovery call: Understand their current process, their ICP, their tools, their biggest pain
+Written scope: What you'll build, what tools it uses, what the output looks like, what's out of scope
+Milestone-based payment: 50% upfront, 50% on delivery
+Handover: Loom walkthrough, documentation, and 30-day email support
+Path 3: New Hire (Employed Role)
+GTM Engineer job openings grew 205% from 2024 to 2025. The demand is real and growing. Median US compensation is around $127,500, with senior roles reaching $200,000+.
+GTM agencies are also one of the biggest employers of GTM Engineers and one of the best places to get your hands dirty fast. Agencies run multiple client campaigns simultaneously, which means you get exposure to different ICPs, stacks, and use cases in a compressed timeline. Pay ranges from $1,000 to $7,000+ per month depending on seniority and scope. For someone early in their GTME career, an agency role often builds more practical skill in six months than a corporate role builds in two years.
+What companies actually look for in GTME job postings:
+Clay experience (mentioned in 70%+ of job postings)
+n8n, Make, or Zapier experience
+Claude Code proficiency
+HubSpot experience
+AI/LLM tool usage
+Evidence of having built systems (not just used them)
+Systems thinking: can you describe a workflow you designed from scratch?
+Where to find GTME job postings:
+Clay Community Slack job board
+GTM Engineer Club
+LinkedIn (search "GTM Engineer", "Revenue Engineer", "Growth Engineer", "Marketing Automation Engineer")
+Y Combinator job board (startups often need GTME before they know the title)
+Wellfound
+
+
+Continue to [Part 6: Resources and Community](https://app.notion.com/p/Part-6-Resources-and-Community-611006a407cb822a86e101b9a63b7669?pvs=21)
+
+<aside>📌
+This is a curated list, not a comprehensive one. Every resource here is something that has been useful in practice. The goal is to give you a starting point, not a reading list so long it becomes an excuse not to build.
+</aside>
+
+6.1 Courses and Structured Programs
+Resource
+Type
+Best for
+Cost
+GTM Engineer School
+Live cohort + community
+All levels. Best for people who want structure, accountability, and live instruction from practitioners. Bolaji graduated from the pioneer cohort.
+Paid
+Clay University
+Self-paced video course
+Learning Clay from scratch. The most important free resource for GTME beginners. Do this in your first month.
+Free
+AirOps Academy
+Self-paced video course
+AI-powered GTM workflows: content generation, outreach personalization, research synthesis.
+Free
+StackOptimise GTM Engineer Certification
+Structured online course
+Building outbound systems with Clay and Smartlead. Practical, step-by-step.
+Paid
+Apollo 12-Week GTM Engineer Program
+Free structured program
+Beginner-friendly path through GTM Engineering fundamentals, with a weekly cadence.
+Free
+HubSpot Academy
+Self-paced certifications
+CRM, inbound marketing, and sales fundamentals. Foundational knowledge for Stage 0.
+Free
+Nathan Herk (YouTube)
+YouTube channel
+n8n tutorials. The best free resource for learning n8n from scratch through practical builds.
+Free
+Alpha Forge
+Career bootcamp
+Clay's career-prep program for practitioners preparing for full-time or freelance GTM Engineering. Free. Enrollment through the Clay Community.
+Free
+Clay Bootcamp
+Structured online course
+Intensive, structured Clay training. More hands-on than self-paced Clay University, with a weekly cadence and accountability built in.
+Paid
+
+6.2 Newsletters Worth Following
+Newsletter
+Focus
+Why it's worth reading
+The GTM Engineer Substack
+Weekly GTME workflows and case studies
+Practical, tactical. Real workflow breakdowns, not theory. One of the most useful reads for anyone actively building.
+Claymation (by Clay)
+Clay tips, playbooks, and GTME trends
+Direct from the team building Clay. New features, workflow ideas, and practitioner spotlights.
+Growth Unhinged by Kyle Poyar
+PLG and modern GTM strategy
+Strategic thinking about how modern B2B companies grow. Useful for understanding the why behind the workflows you build.
+MKT1 by Emily Kramer
+B2B marketing strategy
+Deep-dive frameworks for B2B marketing teams. Helps develop the GTM strategy foundation that makes engineering work meaningful.
+The Signal
+GTME resources roundup
+Aggregates the best GTME content from across the internet into a weekly digest.
+The GTM Engineer by Clay
+Clay's official GTM Engineering newsletter
+Direct from Clay's team. New features, workflow patterns, and practitioner spotlights. Different from Claymation, which is community-sourced. If you only follow one newsletter from Clay, make it this one.
+GTM Engineer School Substack
+GTM Engineering career development
+From Jared Waxman, a GTM Engineer School instructor. Practical content focused on career progression and what working practitioners actually build, written from inside the school.
+
+6.3 Communities to Join
+Community
+Platform
+Why join
+GTM Demystified Community
+Community
+My own community for GTM professionals. If you found this guide useful, this is where to go next to connect with other practitioners asking the same questions.
+Clay Community
+Slack
+The most active GTM Engineering community. Workflow sharing, job board, Q&A, new feature announcements, practitioner spotlights. Join this first.
+AirOps Community
+Slack
+Focused on AI-powered GTM workflows. Active discussions on prompting, content generation, and AI agent builds.
+GTM Cafe
+Slack
+GTM Engineering practitioners discussing stack decisions, workflow architecture, and career questions.
+n8n Community Forum
+Web forum
+Search before asking. The answers to most n8n technical questions are already there. Active and well-maintained.
+Clay Club Lagos
+WhatsApp
+The local GTM Engineering community in Lagos, Nigeria. Physical meetups, peer learning, and building in the African context. If you're in Nigeria, join this first. If you're in another country, search for the Clay Club chapter closest to you for in-person community.
+r/GTMEngineering
+Reddit
+A dedicated GTM Engineering subreddit. Growing quickly. Good for questions, workflow sharing, and connecting with practitioners outside the Slack ecosystems. Easier to search than Slack history.
+Cargo GTM Engineering Community
+Community platform
+Practitioner community run by Cargo. Active discussions on agentic GTM, signal-triggered outbound, and advanced workflow design.
+
+6.4 People to Follow
+These are the practitioners who consistently publish useful, non-generic content about GTM Engineering. What each one is known for:
+Person
+What they're known for
+Where to follow
+Bolaji Anifowose
+GTM Engineering practitioner and PMM consultant. Pioneer cohort graduate of GTM Engineer School. Author of this guide. Posts about outbound systems, GTM automation, and the intersection of product marketing and engineering.
+LinkedIn
+Dan Rosenthal
+Advanced GTME system design. Workflows.io founder. Thinks about GTM systems at an architectural level.
+LinkedIn
+Eric Nowoslawski
+Outbound systems and Clay playbooks. Growth Engine X. High-volume, high-quality practical content.
+LinkedIn, YouTube
+Jordan Crawford
+ICP-first GTM thinking. Blueprint. Pushes back on spray-and-pray outbound with rigorous targeting frameworks.
+LinkedIn
+Matteo Tittarelli
+Advanced Claude Code.
+LinkedIn
+Joe Rhew
+Workflow architecture. The Workflow Company. Practical system design for GTM teams.
+LinkedIn
+Patrick Spychalski
+Clay tutorials and outbound system builds. One of the earliest and most followed Clay educators.
+LinkedIn, YouTube
+Maja Voje
+GTM strategy and positioning. Author of "Go-To-Market Strategist". The strategic foundation for everything you automate.
+LinkedIn
+Kyle Poyar
+PLG and modern GTM motion design. Growth Unhinged newsletter. Essential for understanding product-led and hybrid GTM motions.
+LinkedIn, Substack
+Emily Kramer
+B2B marketing strategy. MKT1. Deep frameworks for building marketing functions that support GTM systems.
+LinkedIn, Substack
+Yash Tekriwal
+Clay's first GTM Engineer. One of the most credible voices in the space, with direct insight into how Clay thinks about GTM workflows at scale. Follow if you want to understand where the category is going.
+LinkedIn
+Jacob Dietle
+GTM operating systems and context engineering. Particularly relevant if you're building with Claude Code and CLAUDE.md, which this guide recommends from Stage 3 onward.
+LinkedIn
+Chris Viglietta
+Clay AI GTM educator and Founding GTM Solutions Engineer at Clay. Runs hands-on workshops for GTM teams on Clay, AI, and signal-based campaigns. If you want to see how Clay teaches its own customers to build, follow Chris.
+LinkedIn
+Jai Toor
+Deepline. Agentic GTM: AI systems where agents handle enrichment, decision-making, and outreach autonomously. Essential reading for Stage 3 and beyond.
+LinkedIn
+
+
+Continue to the [Appendix](https://app.notion.com/p/Appendix-d58006a407cb82a0a887810bbdf93ce4?pvs=21)
+
+A. Glossary of GTME Terms
+Every piece of jargon in GTM Engineering, defined in plain English.
+
+ABM (Account-Based Marketing)
+A GTM approach where you identify specific high-value target accounts and coordinate personalized, multi-channel outreach across that account simultaneously. The opposite of spray-and-pray.
+AI Agent
+A workflow where an AI model doesn't just generate text, it makes decisions about what to do next based on the data it receives. Example: an agent that receives an enriched contact, decides whether to prioritize them, and then either triggers outreach or routes to a nurture list.
+AI Column (Clay)
+A column in a Clay table that runs an AI prompt against the data in each row. Used for generating personalized messaging, scoring ICP fit, classifying job titles, summarizing company descriptions, and more.
+API (Application Programming Interface)
+The set of rules that defines how two software systems communicate. When Clay fetches enrichment data from Prospeo, it's using Prospeo's API. When n8n creates a contact in HubSpot, it's using HubSpot's API.
+AE (Account Executive)
+The salesperson responsible for closing deals. GTM Engineers often build systems that feed pipeline to AEs, so they spend their time selling rather than prospecting.
+Bounce Rate (Email)
+The percentage of emails that could not be delivered. High bounce rates damage sender reputation and deliverability. A clean, enriched list with verified emails keeps bounce rates below 2-3%.
+BDR (Business Development Representative)
+Similar to an SDR. Focuses on outbound prospecting, often targeting slightly larger or more strategic accounts.
+Cadence
+The timing and sequence of outreach touches. A typical cold email cadence: Day 1 (email 1), Day 4 (email 2), Day 9 (email 3), Day 15 (LinkedIn message).
+Claygent
+Clay's built-in AI web scraper and research agent. Claygent visits a URL, extracts information, and returns structured data directly into a Clay table. Used for last-mile enrichment when standard data providers don't have what you need: a company's specific tech stack, a pricing page's details, a prospect's recent LinkedIn posts. More flexible than static enrichment providers because you define exactly what you're looking for.
+Clay
+The anchor tool in the modern GTM Engineering stack. A spreadsheet-like platform where columns can call enrichment APIs, run AI prompts, apply conditional logic, and push data to other tools.
+CRM (Customer Relationship Management)
+The software that stores your contacts, companies, deals, and activity history. HubSpot, Salesforce, and Attio are the most common in GTM Engineering contexts.
+Cold Email
+An unsolicited email sent to a prospect who has not previously opted in to hear from you. Effective cold email is targeted, personalized, and delivered to a warmed inbox with high deliverability.
+Deliverability
+The ability of your emails to reach the recipient's primary inbox rather than spam or promotions folders. Affected by domain reputation, sending volume, email content, and list quality.
+Domain Warming
+The process of gradually increasing email send volume from a new domain to build sender reputation with email providers. Takes 2-3 weeks and cannot be skipped for cold outreach.
+Enrichment
+Adding data to a contact or company record that wasn't in the original source. Example: you have a company name and domain; enrichment adds headcount, industry, LinkedIn URL, tech stack, and verified email.
+FETC
+Clay's mental model for AI-powered GTM workflows, pronounced "fetch." Stands for Find, Enrich, Transform, Create. Find: source raw inputs (company lists, signals, inbound leads). Enrich: add data from external providers using waterfall logic. Transform: clean, structure, and classify data using AI Formulas and Claygent. Create: use the enriched, transformed data to generate a deliverable such as personalized copy, account briefs, or territory plans. The evolution of their earlier FETE framework, which exported data instead of creating with it.
+Firmographics
+Descriptive data about a company: industry, headcount, revenue, geography, business model, founding year. Used to define and score ICP fit.
+GTM (Go-To-Market)
+The strategy and execution for how a company brings a product or service to market and reaches its customers. Encompasses sales, marketing, partnerships, and customer success.
+GTME (GTM Engineering)
+The practice of building automated, AI-powered systems that power a company's go-to-market motion. Coined by Clay in 2023.
+HTTP Column (Clay)
+A Clay column type that makes a direct HTTP request (GET or POST) to any API endpoint, including ones without a native Clay integration. You configure the method, URL, headers, and body using Clay field references as variables. Used to call niche data providers, check Instantly campaign membership before adding a lead, trigger n8n webhooks, or hit internal scoring endpoints. The main mechanism for building proprietary data moats in Clay.
+ICP (Ideal Customer Profile)
+A detailed description of the company that is a perfect fit for your product: firmographics, technographics, behavioral triggers, and pain-to-value mapping.
+Inbox Rotation
+Spreading outbound email volume across multiple sending inboxes to stay under provider sending limits and protect deliverability.
+Intent Data
+Data that signals a company is actively researching a category or problem. Bombora and 6sense aggregate intent signals from across the web. A company showing high intent for your category is more likely to buy than one that isn't.
+JSON (JavaScript Object Notation)
+The standard data format used in API responses. Structured as key-value pairs. You'll see it constantly when connecting tools via API.
+Lifecycle Stage
+Where a contact is in their relationship with your company. Common stages: subscriber, lead, MQL, SQL, opportunity, customer, evangelist.
+MCP (Model Context Protocol)
+An open standard developed by Anthropic that allows AI coding agents like Claude Code to connect directly to external tools. An MCP server exposes a tool's capabilities to the AI agent, so Claude Code can fetch a Notion page, search the web, update a CRM record, or call an API without leaving the session. For GTM Engineers, the most useful MCPs are Notion (knowledge base and work logs), Exa (web search and prospect research), and any GTM tool that exposes an MCP server.
+MQL (Marketing Qualified Lead)
+A lead that meets your ICP criteria and has taken some action that signals interest. Has been evaluated by marketing as worthy of sales follow-up.
+n8n
+A powerful, open-source workflow automation tool. The most capable tool in its category for GTM Engineering purposes. Self-hostable.
+Outreach Sequence (or Cadence)
+A pre-defined series of automated touchpoints sent to a prospect over a period of time. Can include email, LinkedIn messages, phone calls, and direct mail.
+Persona
+A specific type of buyer within your ICP. Example: if your ICP is "B2B SaaS companies with 50-200 employees," your personas might be "VP of Sales" (economic buyer) and "RevOps Manager" (technical evaluator).
+PLG (Product-Led Growth)
+A GTM motion where the product itself drives acquisition, activation, and expansion. The free trial or freemium model is a PLG mechanism.
+Programmatic SEO
+Building large numbers of search-optimized web pages automatically from a data template. Example: "[City] plumbing services" pages generated from a database of cities.
+Reply Classification
+Automatically categorizing incoming replies to outreach sequences: positive (interested), neutral (not now, send info), negative (not interested), out-of-office, unsubscribe. Routes each category to the appropriate next action.
+SDR (Sales Development Representative)
+The salesperson responsible for outbound prospecting and booking meetings for AEs. GTM Engineers build the systems that make SDRs more effective.
+Signal
+An event or data point that indicates a company or contact may be ready to buy. Examples: funding round, new executive hire, job posting in a relevant function, intent data spike, website visit.
+Signal Stacking
+Combining multiple signals to increase confidence in prioritization. A company that has raised funding AND is hiring for a VP of Sales AND is using a competitor tool is a stronger signal than any single trigger.
+SPF / DKIM / DMARC
+Three DNS authentication records that email providers check to verify your emails are legitimate. SPF (Sender Policy Framework) lists the servers authorized to send email from your domain. DKIM (DomainKeys Identified Mail) adds a cryptographic signature to each email. DMARC (Domain-based Message Authentication, Reporting and Conformance) tells receiving servers what to do when SPF or DKIM checks fail. All three must be correctly configured on every sending domain before you begin cold outreach. Missing or misconfigured records are the most common cause of emails landing in spam.
+Suppression List
+A list of contacts who should never receive outreach from your system. Includes current customers, recently churned accounts, people who have unsubscribed, negative replies, competitors, and anyone who has asked not to be contacted. A mature GTM system checks every contact against the suppression list before adding them to any sequence.
+SQL (Sales Qualified Lead)
+A lead that has been evaluated by sales and confirmed to have genuine buying intent and fit. Moves from MQL to SQL after an initial qualification conversation.
+Technographics
+Data about the tools and technologies a company uses. Knowing that a company uses Salesforce tells you something about their sales maturity and budget. BuiltWith and Wappalyzer are common sources.
+AI Coding
+Using AI coding tools to build functional software applications without writing most of the code yourself. Claude Code is the recommended tool for GTM Engineering: it runs in your terminal, reads your project files, writes and executes code, and connects to external tools via MCP servers. Unlike browser-based tools, it operates directly inside your workflow and persists context across sessions via a CLAUDE.md file.
+Waterfall Enrichment
+A sequential enrichment strategy where you try multiple data providers in order of preference, stopping when you get a result. Maximizes data coverage without paying for redundant results.
+Webhook
+A mechanism for one tool to send data to another in real time when an event occurs. When a new HubSpot form submission triggers an n8n workflow, that's a webhook.
+Workflow Spec
+A written document that defines a GTM workflow before it is built in Clay or n8n. A workflow spec covers: the trigger (what starts the workflow), the enrichment layers (what data needs to be added), the routing logic (what qualifies a contact for action vs. no action), the copy variables (what fields the outreach template uses), the output destination (which sequence, CRM, or Slack channel), and the failure handling (what happens when a step returns no result). Writing the spec before building prevents ambiguity from becoming bugs in the table or workflow.
+
+B. The Minimal Viable GTME Stack
+One tool per category. All free tiers or low-cost. Get started within a week.
+Category
+Tool
+Why this one
+Where to start
+Data and Enrichment
+Clay (free tier)
+The most important tool in the stack. Free tier is enough to learn on.
+clay.com/university
+Workflow Automation
+n8n (self-hosted, free)
+Most powerful free option. Self-hosting means no per-execution pricing.
+docs.n8n.io, Nathan Herk on YouTube
+CRM
+HubSpot (free tier)
+Most integrations. Free tier is genuinely functional for learning.
+app.hubspot.com
+Email Outbound
+Instantly (trial)
+Strong deliverability features and warmup. Best free trial in the category.
+instantly.ai
+LLM
+OpenAI API
+Integrates natively with Clay. Pay-per-use is very cheap at learning volume.
+platform.openai.com
+AI Coding
+Claude Code (free)
+Terminal-based AI coding agent. Reads your project files, writes and runs code, and connects to external tools via MCP. The right tool for GTM Engineering scripts, n8n Code node fixes, and enrichment automation.
+docs.anthropic.com/claude-code
+Total monthly cost at learning volume: Under $20 (mostly OpenAI API usage).
+
+C. The 6-Month Week-by-Week Checklist
+Use this as a loose guide. Adjust based on your pace. The milestones matter more than the timeline.
+Month 1: Foundations
+[ ] Read "Obviously Awesome" by April Dunford
+[ ] Complete HubSpot Inbound Marketing certification (free)
+[ ] Write your ICP definition: firmographics, technographics, two behavioral triggers, one pain statement
+[ ] Map a basic outbound funnel on paper: signal, list build, enrich, score, sequence, reply
+[ ] Sign up for Clay and complete Clay University (free)
+[ ] Build your first Clay table: 50 companies, enriched with industry, headcount, LinkedIn URL, and ICP score
+[ ] Set up HubSpot free CRM
+[ ] Build your first Zapier or Make automation (any two tools connected)
+[ ] Subscribe to: Clay Community Slack, Growth Unhinged, Claymation newsletter
+[ ] Buy a sending domain & inbox and set up DMARC, DKIM, and SPF records
+[ ] Start inbox warmup in Instantly (runs in background for 2-3 weeks)
+Month 2: First Live Workflows
+[ ] Complete your first cold email sequence in Instantly: 3 steps, warmed inbox, 20 contacts
+[ ] Review and analyze results: open rates, reply rates, positive reply rates
+[ ] Learn n8n basics: install (self-hosted) or sign up for cloud, complete the intro tutorial
+[ ] Build your first n8n workflow with a Webhook trigger and at least two nodes
+[ ] Write 5 different AI column prompts in Clay and compare the output quality
+[ ] Post your first LinkedIn update about something you built
+[ ] Read one Jordan Crawford post or article
+Month 3: System Thinking
+[ ] Build the signal-triggered outbound pipeline (Stage 2 Project 1)
+[ ] Learn n8n If nodes, Loop Over Items, and Error handling
+[ ] Connect Clay to HubSpot: set up a push that creates contacts with enrichment fields
+[ ] Set up a Slack notification for high-score inbound leads
+[ ] Document your first system with a Loom walkthrough and a written description
+[ ] Post about the system you built on LinkedIn
+[ ] Read Maja Voje's "Go-To-Market Strategist"
+Month 4: AI and Personalization
+[ ] Build the inbound enrichment and routing pipeline (Stage 2 Project 2)
+[ ] Learn to use AI personalization with scraped data (company about page, recent blog post)
+[ ] Build a content distribution workflow (Stage 2 Project 3)
+[ ] Start learning JavaScript basics: variables, functions, arrays, conditionals
+[ ] Use an HTTP Request node in n8n to call an external API directly
+[ ] Post your second LinkedIn build update
+[ ] Engage in Clay Community Slack: answer one question someone else asked
+Month 5: Technical Depth
+[ ] Write your first JavaScript Code node in n8n (job title normalization or similar)
+[ ] Call at least two APIs directly using HTTP Request nodes (without native integrations)
+[ ] Learn HubSpot custom properties and lifecycle stages
+[ ] Write your first custom JavaScript Clay formula that solves a real data problem (Stage 3 Project 1)
+[ ] Set up Claude Code for GTM: CLAUDE.md, at least two MCP servers, and your first enrichment script (Stage 3 Project 2)
+[ ] Document both with a Loom and written overview
+[ ] Start your portfolio page: 3 projects documented with problem, system, and results
+Month 6: Build and Ship
+[ ] Build your live GTM performance dashboard and deploy it to Railway or Vercel (Stage 3 Project 3)
+[ ] Write one custom JavaScript formula that solves a real GTM data problem
+[ ] Complete your portfolio: 3-5 documented systems with Loom walkthroughs
+[ ] Post your portfolio on LinkedIn
+[ ] Reach out to 3 people in your network about GTM Engineering freelance or employment opportunities
+[ ] Set your LinkedIn headline to include GTM Engineering
+[ ] Decide your next step: internal pivot, consulting, or new role search
+
+You've finished the guide. Now close the tab and go build something.
+
